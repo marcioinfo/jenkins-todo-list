@@ -4,7 +4,7 @@ from django.test import TestCase
 #from .models import Todo
 import sys
 sys.path.insert(0, '/usr/src/app/core')
-from models import Todo
+from core.models import Todo
 
 
 class TodoTestCase(TestCase):
